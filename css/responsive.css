@@ -1,0 +1,120 @@
+@media screen and (max-width: 575px) {
+
+    .about_section {
+        height: auto;
+    }
+    .ab_img {
+        margin: 0;
+        max-width: inherit !important;
+    }
+    .author_image {
+        margin-top: 45px;
+        margin-bottom: 45px;
+        width: 100%;
+    }
+    
+    .hero_section {
+        height: auto;
+    }
+    
+    .what_i_do {
+        margin: 30px 30px;
+    }
+    
+    .box.wid {
+        margin-bottom: 35px;
+    }
+    
+
+    .project_section {
+        height: auto;
+    }
+    
+    .skills {
+      margin-top: 45px;
+        margin-bottom: 0;
+        margin-left: 0
+    }
+    
+    .work_exp {
+        margin-top: 50px;
+        padding-bottom: 30px;
+    }
+    
+    .pricing_table {
+        margin-left: 0;
+        margin-bottom: 25px;
+    }
+}  
+
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    
+  .about_section {
+        height: auto;
+    }
+    
+    .hero_section {
+        height: auto;
+    }
+    .ab_img {
+        max-width: inherit !important;
+    }
+    .what_i_do {
+      margin: 40px 40px;
+    
+    }
+    
+     .box.wid {
+        margin-bottom: 35px;
+    }
+    
+    .project_section {
+        height: auto;
+    }
+    
+    .skills {
+      margin-top: 45px;
+        margin-bottom: 0;
+        margin-left: 0
+    }
+    .pricing_table {
+        margin-bottom: 25px;
+    }
+    
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 959px) {
+    .about_section {
+        height: auto;
+    }
+    
+    .project_section {
+        height: auto;
+    }
+    .skills {
+        margin-left: auto;
+        max-width: 350px;
+        height: auto;
+    }
+    
+}
+
+@media screen and (min-width: 960px) and (max-width: 1280px) {
+    .about_section {
+        height: auto;
+    }
+    
+    .project_section {
+        height: auto;
+    }
+    
+    .skills {
+        margin-left: auto;
+        max-width: 350px;
+        height: auto;
+    }
+
+}
+

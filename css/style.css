@@ -1,0 +1,321 @@
+body {
+    background: #100e17;
+    color: #fff;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul li {
+ list-style: none;
+    padding: 5px 0;
+}
+
+.text_highlight {
+   color: #0bbba0;
+}
+
+.btn {
+    color: #fff;
+    background-color: #0bbba0;
+    border-radius: 18px;
+    border-bottom: 2px solid #fff;
+    border-left: 2px solid #fff;
+}
+
+.btn:hover {
+    background-color: #0bbba0;
+        border-bottom: 2px solid #fff;
+    border-left: 2px solid #fff;
+}
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+p, h1, h2, h3, h4, h5, h6, .fa {
+    color: white;
+}
+
+.navbar {
+    padding: 15px 0;
+}
+
+.navbar-toggler-icon {
+    background: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: #fff;
+    text-transform: uppercase;
+	transition: 0.1s;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #0bbba0;
+    text-decoration: overline;
+}
+
+.navbar-nav .nav-item:not(:last-child){
+    margin-left: 20px;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #0bbba0;
+}
+
+.hero_section {
+    padding-top: 90px;        
+    background-image: linear-gradient(rgba(20, 18, 19, 0.1), rgba(20, 18, 19, 0.1)) , url(../img/header-bg.png);
+    background-size: cover;
+    background-position: center center;
+    height: 85vh;
+}
+
+
+.hero_section .hello h3 {
+    text-transform: capitalize;
+    background: #0bbba0;
+    display: inline;
+    color: white;
+    padding: 15px;
+    border-radius: 35px 5px;
+}
+
+.hello {
+    margin-bottom: 35px;
+}
+
+
+.icons {
+    margin-top: 45px;
+}
+
+#common {
+    color: white;
+    margin-left: 10px;
+    font-size: 24px;
+}
+
+.social_icons {
+    margin-top: 25px;;
+}
+
+.social_icons ul li {
+    display: inline-block;
+}
+
+/*
+.s_icon {
+    margin-left: 15px;
+    font-size: 25px;
+    background: 
+}
+*/
+
+.s_icon {
+    margin-right: 20px;
+    font-size: 24px;
+    padding: 10px 15px;
+    border-radius: 10%;
+}
+
+.s_icon:hover {
+    background: #fff;
+    transition: 0.5s;
+}
+
+.fa:hover {
+    color: #0bbba0;
+}
+
+.author_image {
+    width: 350px;
+    display: block; 
+    border: 20px solid #030304 ;
+    border-radius: 50%;
+}
+
+.hero_img_border {
+    border: 20px solid #0C0B0C;
+    border-radius: 50%;
+}
+
+
+/* About Section*/
+
+.about_section {
+    height: auto;
+}
+
+
+
+
+.ab_img {
+    max-width: 400px;
+    height: 300px;
+}
+
+.about_section {
+   padding: 70px 0;
+}
+
+.skill_btn {
+    background: #100E17;
+    color: #fff;
+    border: 1px solid #0bbba0;
+    padding: 0 5px;
+    margin-right: 10px;
+}
+
+/* What I Do*/
+.box {
+    background: #1E1E24;
+    padding: 10px 15px;
+    border-bottom: 2px solid #0bbba0;
+    border-left: 2px solid #0bbba0;
+    border-radius: 20px;
+}
+
+.lorem {
+    font-weight: 300;
+    font-size: 16px;
+}
+
+/* Project Section*/
+
+.project_section {
+    padding-top: 90px;        
+    background-image: linear-gradient(rgba(20, 18, 19, 0.6), rgba(20, 18, 19, 0.6)) , url(../img/features-1.png);
+    background-size: cover;
+    background-position: center center;
+    height: auto;
+}
+
+.progress .progress-bar {
+    background: #0bbba0;
+}
+
+
+/* Skills Section Style*/
+.skills_section {
+    background-color: #100E17;
+    height: auto;
+}
+
+/* Animation*/
+
+.skills {
+    max-width: 450px;
+    height: 400px;
+    margin-left: 50px;
+}
+
+/* Work and Educaiton Section*/
+
+
+.box.work:not(:last-child) {
+    margin-bottom: 25px;
+}
+.box.work p {
+    margin: 0;
+    padding: 0;
+}
+
+.box.work.ghar_tera {
+    margin-top: 34px;
+}
+
+/* Portfolio Section*/
+
+.portfolio_buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio_buttons .btn:not(:last-child){
+    margin-right: 20px;
+}
+
+.common {
+    margin-top: 20px;
+}
+
+.portfolio_img {
+    width: 100%;
+    height: 230px;
+}
+
+.mix h5 {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+
+/* Pricing Section*/
+
+
+.pricing_icons {
+    font-size: 38px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.pricing_table:not(:first-child) {
+    margin-left: 90px;
+}
+
+.price {
+    display: flex;
+    justify-content: center;
+}
+
+/* Featured Posts Section*/
+
+.my_custom_card {
+    background: #1E1E24;
+}
+
+.card {
+    background: #1E1E24;
+    color: #fff;
+}
+
+/* Contact Section*/
+
+.contact_section {
+    padding-top: 90px;        
+    background-image: linear-gradient(rgba(16, 14, 23, 0.85), rgba(16, 14, 23, 0.85)) , url(../img/extra-feature-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: auto;
+    color: #fff;
+}
+
+.footer_area p {
+    color: #fff;
+}
+
+/* Sticky */
+.sticky{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #100e17;
+  padding: 10px 0;
+  z-index: 9999;
+}
+
+.sticky .navbar-brand {
+    margin-left: 250px;
+}
+
+.sticky .navbar-nav {
+    margin-right: 210px;
+}
+
